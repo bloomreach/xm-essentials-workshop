@@ -13,7 +13,7 @@
 
   <instructionSet>
     <!-- TASK 1: add a Maven dependency to cms/pom.xml -->
-<!--    <mavenDependency targetPom="<todo>" groupId="org.jsoup" artifactId="jsoup" version="1.11.3"/>-->
+<!--    <mavenDependency targetPom="todo" groupId="org.jsoup" artifactId="jsoup" version="1.11.3"/>-->
 
     <!-- TASK 2: copy an FTL template into the project’s webfiles -->
 <!--    <freemarker action="copy" source="workshop-template.ftl" target="{{todo}}/freemarker/{{namespace}}/workshop-template.ftl"/>-->
