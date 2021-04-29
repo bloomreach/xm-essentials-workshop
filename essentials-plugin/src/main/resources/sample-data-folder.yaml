@@ -1,0 +1,3 @@
+/content/documents/administration/sample-data-folder:
+  jcr:primaryType: hippostd:folder
+  jcr:mixinTypes: [ 'mix:referenceable' ]

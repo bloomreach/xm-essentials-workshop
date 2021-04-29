@@ -1,7 +1,7 @@
 {
   "type": "feature",
   "id": "workshop",
-  "name": "My Essentials Plugin (Workshop)",
+  "name": "_My Essentials Plugin (Workshop)",
   "icon": "/essentials/feature/workshop/icon.png",
   "introduction": "[Provide short introduction, describing the purpose of this plugin]",
   "vendor": {
