@@ -20,3 +20,6 @@ definitions:
       /newspage-main:
         jcr:primaryType: hst:template
         hst:renderpath: webfile:/freemarker/hstdefault/newspage-main.ftl
+      /workshop-template:
+        jcr:primaryType: hst:template
+        hst:renderpath: webfile:/freemarker/myproject/workshop-template.ftl
