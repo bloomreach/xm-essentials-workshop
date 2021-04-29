@@ -1,0 +1,50 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations/myproject/hst:workspace/hst:containers:
+      jcr:primaryType: hst:containercomponentfolder
+      /base:
+        jcr:primaryType: hst:containercomponentfolder
+        /top:
+          .meta:residual-child-node-category: content
+          jcr:primaryType: hst:containercomponent
+          hippo:identifier: 09878180-0c48-4d67-b079-bed39aa2307a
+          hst:label: Top
+          hst:xtype: hst.vbox
+        /footer:
+          .meta:residual-child-node-category: content
+          jcr:primaryType: hst:containercomponent
+          hippo:identifier: f7450e9c-4115-44da-81d9-c85b98cd0612
+          hst:label: Footer
+          hst:xtype: hst.vbox
+      /homepage:
+        jcr:primaryType: hst:containercomponentfolder
+        /main:
+          .meta:residual-child-node-category: content
+          jcr:primaryType: hst:containercomponent
+          hippo:identifier: 7ab0a658-e505-4f77-8433-644ea2317493
+          hst:label: Home Page Main
+          hst:xtype: hst.vbox
+      /pagenotfound:
+        jcr:primaryType: hst:containercomponentfolder
+        /main:
+          .meta:residual-child-node-category: content
+          jcr:primaryType: hst:containercomponent
+          hippo:identifier: 2845a575-3b57-4dfc-ba62-522a2fb989cd
+          hst:label: Page-Not-Found Main
+          hst:xtype: hst.vbox
+      /newslist:
+        jcr:primaryType: hst:containercomponentfolder
+        /main:
+          .meta:residual-child-node-category: content
+          jcr:primaryType: hst:containercomponent
+          hippo:identifier: d30d851d-566a-49c1-9f1d-369f6adce9ab
+          hst:label: News List Main
+          hst:xtype: hst.vbox
+      /newspage:
+        jcr:primaryType: hst:containercomponentfolder
+        /main:
+          .meta:residual-child-node-category: content
+          jcr:primaryType: hst:containercomponent
+          hippo:identifier: 05449e70-ed47-4672-9444-25be66a4599c
+          hst:label: News Page Main
+          hst:xtype: hst.vbox
