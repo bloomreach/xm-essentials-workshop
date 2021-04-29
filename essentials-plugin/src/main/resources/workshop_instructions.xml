@@ -13,16 +13,16 @@
 
   <instructionSet>
     <!-- TASK 1: add a Maven dependency to cms/pom.xml -->
-    <!--<mavenDependency targetPom="[[Maven module]]" groupId="org.jsoup" artifactId="jsoup" version="1.11.3"/>-->
+<!--    <mavenDependency targetPom="<todo>" groupId="org.jsoup" artifactId="jsoup" version="1.11.3"/>-->
 
     <!-- TASK 2: copy an FTL template into the project’s webfiles -->
-    <!--<file action="copy" source="workshop-template.ftl" target="[[appropriate location in webfiles module]]"/>-->
+<!--    <freemarker action="copy" source="workshop-template.ftl" target="{{todo}}/freemarker/{{namespace}}/workshop-template.ftl"/>-->
 
     <!-- TASK 3: import XML HST configuration for that template into the repository -->
-    <!--<xml action="copy" source="workshop-template.xml" target="[[path/to/hst:templates]]"/>-->
+<!--    <xml action="copy" source="workshop-template.xml" target="{{todo}}/hst:configurations/{{namespace}}/hst:templates"/>-->
 
     <!-- TASK 4: copy an image into the site’s WEB-INF folder, avoid that Essentials attempts to replace placeholders -->
-    <!--<file action="copy" source="matterhorn.jpg" target="[[site's WEB-INF folder]]/images/matterhorn.jpg"/>-->
+<!--    <file action="copy" binary="true" source="matterhorn.jpg" target="{{todo}}/images/matterhorn.jpg"/>-->
 
     <execute class="org.example.ExampleInstruction"/>
   </instructionSet>
@@ -30,8 +30,8 @@
   <!-- This instruction set is only executed if your Essentials settings specify that sample data should be installed. -->
   <instructionSet group="sampleData">
     <!-- TASK 5: copy a folder as ‘development’ sample data into your project -->
-    <!--<file action="copy" source="sample-data-folder.yaml"
-              target="[[hcm-content for development purposes]]/essentials/workshop/sample-data-folder.yaml"/>-->
+<!--    <file action="copy" source="sample-data-folder.yaml"-->
+<!--          target="{{todo}}/essentials/workshop/sample-data-folder.yaml"/>-->
   </instructionSet>
 
 </instructions>
