@@ -25,6 +25,6 @@ public class ExampleInstruction implements Instruction {
     public void populateChangeMessages(final BiConsumer<Type, String> changeMessageQueue) {
         Session session = jcrService.createSession();
         String userID = session.getUserID();
-        changeMessageQueue.accept(Type.EXECUTE, "Example instruction change message " + userID);
+        changeMessageQueue.accept(Type.EXECUTE, "essentials user is: " + userID);
     }
 }
